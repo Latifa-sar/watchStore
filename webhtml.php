@@ -36,7 +36,6 @@
 <div class="pragraph">
   <p>من هنا يبدأ الوقت<br>
  نجعل الوقت واضحاً بدمج التراث الحاضر و المستقبل </p></div>
-<p>hgyuguyguyg</p>
  <div class="footer">
      <div class="footer-center" dir="ltr" >
          <br></br>
