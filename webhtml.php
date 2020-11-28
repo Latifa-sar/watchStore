@@ -3,6 +3,23 @@
   <head>
     <meta charset="utf-8">
     <title>html</title>
+    <style>
+        #time {
+            display: table;
+            margin: 100px auto;
+            text-align: center;
+        }
+
+        #time li {
+            float: left;
+            display: inline-block;
+            background: #555555;
+            border: 3px solid #d9e4dd;
+            padding: 30px;
+            font-size: 30px;
+            color: #cdc9c3;
+        }
+    </style>
     <link rel="stylesheet" href="webcss.css">
   </head>
   <body>
@@ -36,6 +53,51 @@
 <div class="pragraph">
   <p>من هنا يبدأ الوقت<br>
  نجعل الوقت واضحاً بدمج التراث الحاضر و المستقبل </p></div>
+ <ul id="time">
+     <li id="h"></li>
+     <li id="m"></li>
+     <li id="s"></li>
+     <li id="t"></li>
+ </ul>
+ <script>
+     var h = document.getElementById("h"),
+         m = document.getElementById("m"),
+         s = document.getElementById("s"),
+         t = document.getElementById("t"),
+         type = "AM";
+     //myTime();
+     function myTime() {
+         "use strict";
+         var time = new Date(),
+             hours = time.getHours(),
+             minutes = time.getMinutes(),
+             seconds = time.getSeconds();
+         h.innerText = hours;
+         m.innerText = minutes;
+         s.innerText = seconds;
+         t.innerText = type;
+         if (hours > 12) {
+             type = "PM";
+             hours -= 12;
+         }
+         if (hours < 10) {
+             hours = "0" + hours;
+         }
+         if (minutes < 10) {
+             minutes = "0" + minutes;
+         }
+         if (seconds < 10) {
+             seconds = "0" + seconds;
+         }
+         h.innerText = hours;
+         m.innerText = minutes;
+         s.innerText = seconds;
+         t.innerText = type;
+
+     }
+
+     setInterval(myTime, 1000);
+  </script>
  <div class="footer">
      <div class="footer-center" dir="ltr" >
          <br></br>
