@@ -23,6 +23,9 @@
 <a class="navbar-link" href="webhtml4.php">ساعات رجالية</a>
         </li>
         </ul>
+        <il class="navbar-item">
+ <a class="navbar-link" href="webhtml5.php">سلة التسوق </a>
+</il>
       </nav>
       <div class="logo">
 <img src="https://e.top4top.io/p_17828ik380.png" alt="logo" height="300">
@@ -32,8 +35,6 @@
       <p>تسجيل الدخول</p>
     </div>
       </div>
-
-
     <br>
 
 <div class="enter">
