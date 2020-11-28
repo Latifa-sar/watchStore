@@ -36,7 +36,7 @@
     </div>
       </div>
     <br>
-
+<!-- github: abd17/php-web-Registeration-page-->
 <div class="enter">
   <center>
     <div class="Register">
@@ -73,7 +73,7 @@
       	</form>
         <center>
 </div>
-
+<!--ذيل الصفحة-->
     <div class="footer">
         <div class="footer-center" dir="ltr" >
             <br></br>

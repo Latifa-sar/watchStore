@@ -1,15 +1,10 @@
-
-@front-face{
-  font-family:'Tajawal';
-  scr: url(Tajawal-Regular.ttf):
-}
-.{
+*{
 box-sizing: border-box;
 margin:0;
 padding:0;
-direction:ltr;
-front-family:Tajawal;
-front-size: 16px;
+direction:rtl;
+font-family:Tajawal;
+font-size:30px;
 }
 html{
 --primary-color:#d9e4dd;
@@ -51,7 +46,6 @@ body{
 .prod-box{
   margin: 40px;
 overflow:hidden;
-margin:80;
 position: relative;
 float: left;
 border:3px solid var(--secndary_color);
@@ -77,11 +71,10 @@ transition: all .5s ease;
 }
 .prod-featuer{
   text-align: center;
-  margin-top: -150;
+  margin-top: -150px;
   transition: all .5s ease;
 }
 .prod-featuer p{
-  color: 150px;
   font-family: verdana;
 }
 .prod-box:hover .prod-featuer{
@@ -89,8 +82,8 @@ transition: all .5s ease;
   transition: all .5s ease;
 }
 .prod-box:hover input{
-  weight:150px;
-  height: 35px;
+
+  height:35px;
   font-size:17px;
 }
 .prod-container{
@@ -152,7 +145,7 @@ border-radius:5px;
 .error {
 	width: 90%;
 	margin-left: 30px;
-  margin-right: 30px
+  margin-right: 30px;
 	padding: 10px;
 	border: 1px solid #a94442;
 	color: #a94442;

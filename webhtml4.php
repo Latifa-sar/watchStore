@@ -34,7 +34,8 @@
         <p>الساعات الرجالية</p>
       </div>
       </div>
-
+      <!--جميع صور المنتجات من موقع الدهام-->
+      <!--يوتيوب قناة:ahmed mohamady-->
     <div class="prod-container">
       <div class="prod-box">
         <img class="product-image-photo" src="https://k.top4top.io/p_1783607jk0.jpeg" width="270" height="270" alt="ساعة رجالية8">
