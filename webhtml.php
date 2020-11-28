@@ -51,20 +51,33 @@
       <p>الرئيسة</p>
     </div>
     <br>
+    <ul id="time">
+        <li id="h"></li>
+        <li id="m"></li>
+        <li id="s"></li>
+        <li id="t"></li>
+    </ul>
+    <br>
     <center>
     <div class="soon">
-        <img src="https://h.top4top.io/p_1793fv6kd1.png" width="800" height="400" alt="قريبا" style="border:var(--secndary_color) 5px solid;">
+        <img src="https://k.top4top.io/p_1793yhe5d1.png" width="800" height="700" alt="قريبا" style="border:var(--secndary_color) 5px solid;">
     </div>
-<center>
-<div class="pragraph">
-  <p>من هنا يبدأ الوقت<br>
- نجعل الوقت واضحاً بدمج التراث الحاضر و المستقبل </p></div>
- <ul id="time">
-     <li id="h"></li>
-     <li id="m"></li>
-     <li id="s"></li>
-     <li id="t"></li>
- </ul>
+
+<br>
+<br>
+<br>
+ <div class="footer">
+     <div class="footer-center" dir="ltr" >
+         <br></br>
+         <p id="a">"لطلب من منتجاتنا الرائعة فضلا تواصل معنا"</p>
+         </div>
+         <div class="footerT" >
+     <a id="a"href="mailto:rafaalmohimeed@gmail.com" target="_blank">الايميل </a>
+     <br></br>
+
+     <a id="a"href="https://wa.me/+966544378776" target="_blank">واتس اب</a>
+         </div>
+</div>
  <script>
      var h = document.getElementById("h"),
          m = document.getElementById("m"),
@@ -104,17 +117,6 @@
 
      setInterval(myTime, 1000);
   </script>
- <div class="footer">
-     <div class="footer-center" dir="ltr" >
-         <br></br>
-         <p id="a">"لطلب من منتجاتنا الرائعة فضلا تواصل معنا"</p>
-         </div>
-         <div class="footerT" >
-     <a id="a"href="mailto:rafaalmohimeed@gmail.com" target="_blank">الايميل </a>
-     <br></br>
 
-     <a id="a"href="https://wa.me/+966544378776" target="_blank">واتس اب</a>
-         </div>
-</div>
   </body>
 </html>
