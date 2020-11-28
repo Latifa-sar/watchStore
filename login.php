@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="rtl">
 <head>
-	<title>Login Form</title>
+	<title>الرئيسة</title>
   <link rel="stylesheet" href="webcss.css">
 </head>
 <body >
@@ -13,7 +13,7 @@
 <a class="navbar-link" href="webhtml.php">الرئيسة</a>
 			</li>
 			<li class="navbar-item">
-<a class="navbar-link" href="#">تسجيل الدخول</a>
+<a class="navbar-link" href="#">التسجيل </a>
 			</li>
 			<li class="navbar-item">
 <a class="navbar-link" href="webhtml3.php">ساعات نسائية</a>
@@ -31,7 +31,7 @@
 		</div>
 	</div>
 	<div class="header">
-		<p>تسجيل</p>
+		<p>تسجيل الدخول</p>
 	</div>
 
 
@@ -63,13 +63,14 @@
 <div class="footer">
 		<div class="footer-center" dir="ltr" >
 				<br></br>
-		<p id="a">“Never give up on a dream just because of the time it will take to accomplish it. The time will pass anyway.”</p>
-		</div>
-		<div class="footerT" >
-<a id="a"href="mailto:rafaalmohimeed@gmail.com" target="_blank">تواصل معنا عبر الايميل </a>
-<br></br>
+				<p id="a">"لطلب من منتجاتنا الرائعة فضلا تواصل معنا"</p>
+				</div>
+				<div class="footerT" >
+		<a id="a"href="mailto:rafaalmohimeed@gmail.com" target="_blank">الايميل </a>
+		<br></br>
 
-<a id="a"href="https://wa.me/+966544378776" target="_blank">تواصل معنا عبر واتساب</a>
-		</div>
+		<a id="a"href="https://wa.me/+966544378776" target="_blank">واتس اب</a>
+				</div>
+	</div>
 </body>
 </html>
