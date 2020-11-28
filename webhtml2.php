@@ -22,9 +22,6 @@
         <li class="navbar-item">
 <a class="navbar-link" href="webhtml4.php">ساعات رجالية</a>
         </li>
-        <il class="navbar-item">
- <a class="navbar-link" href="webhtml5.php">سلة التسوق </a>
-</il>
         </ul>
       </nav>
       <div class="logo">
@@ -47,23 +44,23 @@
         <form method="post" action="webhtml2.php">
           <?php include('weberrors.php'); ?>
           <div class="input">
-      <label>Full_Name</label>
+      <label>الاسم</label>
     <input type="text" name="name"  value="<?php echo $name?>">
           </div>
               <div class="input">
-              <label>User_Name</label>
+              <label>اسم المستخدم</label>
       			<input type="text" name="username"  value="<?php echo $username; ?>">
                   </div>
       		 <div class="input">
-      			<label>E_Mail</label>
+      			<label>البريد الالكتروني</label>
       			<input type="email" name="email"  value="<?php echo $email; ?>">
               </div>
                     <div class="input">
-              <label>Password</label>
+              <label>كلمة المرور</label>
       			<input type="password" name="password_1"  value="<?php echo $password; ?>">
             </div>
                          <div class="input">
-      		<label>Re_Password</label>
+      		<label>تأكيد كلمة المرور</label>
       			<input type="password" name="password_2" >
               </div>
               <div>

@@ -2,7 +2,7 @@
 <html lang="en" dir="rtl">
   <head>
     <meta charset="utf-8">
-    <title>الساعات النسائية</title>
+    <title>الساعات الرجالية</title>
     <link rel="stylesheet" href="webcss.css">
   </head>
   <body>
@@ -14,7 +14,7 @@
 <a class="navbar-link" href="webhtml.php">الرئيسة</a>
         </li>
         <li class="navbar-item">
-<a class="navbar-link" href="webhtml2.php">تسجيل الدخول</a>
+<a class="navbar-link" href="webhtml2.php">التسجيل</a>
         </li>
         <li class="navbar-item">
 <a class="navbar-link" href="webhtml3.php">ساعات نسائية</a>
@@ -130,13 +130,14 @@
   <div class="footer">
       <div class="footer-center" dir="ltr" >
           <br></br>
-      <p id="a">“Never give up on a dream just because of the time it will take to accomplish it. The time will pass anyway.”</p>
+      <p id="a">"لطلب من منتجاتنا الرائعة فضلا تواصل معنا"</p>
       </div>
       <div class="footerT" >
-  <a id="a"href="mailto:rafaalmohimeed@gmail.com" target="_blank">تواصل معنا عبر الايميل </a>
+  <a id="a"href="mailto:rafaalmohimeed@gmail.com" target="_blank">الايميل </a>
   <br></br>
 
-  <a id="a"href="https://wa.me/+966544378776" target="_blank">تواصل معنا عبر واتساب</a>
+  <a id="a"href="https://wa.me/+966544378776" target="_blank">واتس اب</a>
       </div>
+    </div>
   </body>
 </html>
