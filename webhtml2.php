@@ -67,7 +67,7 @@
               <button type="submit"class="btn" name="reg_user">Register</button>
       		</div>
       		<p>
-      			   Have Acount?<a href="login.php">Login</a>
+      			   لديك حساب؟<a href="login.php">Login</a>
       		</p>
       	</form>
         <center>
@@ -76,13 +76,13 @@
     <div class="footer">
         <div class="footer-center" dir="ltr" >
             <br></br>
-        <p id="a">“Never give up on a dream just because of the time it will take to accomplish it. The time will pass anyway.”</p>
-        </div>
-        <div class="footerT" >
-    <a id="a"href="mailto:rafaalmohimeed@gmail.com" target="_blank">تواصل معنا عبر الايميل </a>
-    <br></br>
+            <p id="a">"لطلب من منتجاتنا الرائعة فضلا تواصل معنا"</p>
+    				</div>
+    				<div class="footerT" >
+    		<a id="a"href="mailto:rafaalmohimeed@gmail.com" target="_blank">الايميل </a>
+    		<br></br>
 
-    <a id="a"href="https://wa.me/+966544378776" target="_blank">تواصل معنا عبر واتساب</a>
-        </div>
+    		<a id="a"href="https://wa.me/+966544378776" target="_blank">واتس اب</a>
+    				</div>
   </body>
 </html>
