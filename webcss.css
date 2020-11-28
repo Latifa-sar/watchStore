@@ -189,18 +189,3 @@ a:hover{
     color: #d9e4dd;
 
 }
-#time {
-    display: table;
-    margin: 200px auto;
-    text-align: center;
-}
-
-#time li {
-    float: left;
-    display: inline-block;
-    background: #555555;
-    border: 3px solid #d9e4dd;
-    padding: 30px;
-    font-size: 30px;
-    color: #cdc9c3;
-}
