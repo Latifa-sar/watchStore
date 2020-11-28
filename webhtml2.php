@@ -8,13 +8,13 @@
   </head>
   <body>
     <div class="<container">
-        <nav>
+      <nav>
         <ul class="navbar">
         <li class="navbar-item">
-<a class="navbar-link" href="webhtml.php">الرئيسة</a>
+<a class="navbar-link" href="webhtml.php"> الرئيسة</a>
         </li>
         <li class="navbar-item">
-<a class="navbar-link" href="#">تسجيل الدخول</a>
+<a class="navbar-link" href="webhtml2.php">تسجيل الدخول</a>
         </li>
         <li class="navbar-item">
 <a class="navbar-link" href="webhtml3.php">ساعات نسائية</a>
@@ -22,10 +22,10 @@
         <li class="navbar-item">
 <a class="navbar-link" href="webhtml4.php">ساعات رجالية</a>
         </li>
-        </ul>
         <il class="navbar-item">
  <a class="navbar-link" href="webhtml5.php">سلة التسوق </a>
 </il>
+        </ul>
       </nav>
       <div class="logo">
 <img src="https://e.top4top.io/p_17828ik380.png" alt="logo" height="300">
