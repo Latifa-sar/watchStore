@@ -6,7 +6,7 @@
     <style>
         #time {
             display: table;
-            margin: 100px auto;
+            margin: 30px auto;
             text-align: center;
         }
 
@@ -19,6 +19,11 @@
             font-size: 30px;
             color: #cdc9c3;
         }
+        .content {
+            color:#555555;}
+            #name{
+                font-size:50px;
+            }
     </style>
 
     <link rel="stylesheet" href="webcss.css">
@@ -51,6 +56,31 @@
     <div class="header"
       <p>الرئيسة</p>
     </div>
+    <br>
+    <center>
+    <div class="content">
+
+        <h3 id="name"></h3>
+        <script>
+            window.onload = function myFunction() {
+                var person = prompt("اهلا بكم في متجرنا ننمنى لكم تسوق ممتع, الرجاء ادخال الاسم", "");
+                var date = new Date();
+                var h = date.getHours();
+                var greeting = '';
+                if (h < 10) {
+                    greeting = "صباح الخير";
+                } else if (h < 20) {
+                    greeting = "يوم جميل";
+                } else {
+                    greeting = "مساء الخير";
+                }
+
+                if (person != null) {
+                    document.getElementById("name").innerHTML = greeting + " " + person;
+                }
+            }
+        </script>
+        <center>
     <br>
     <!--youtube:Evoode -->
     <ul id="time">
